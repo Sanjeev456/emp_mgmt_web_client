@@ -1,0 +1,20 @@
+{
+  "name": "emp_mgmt_web_client",
+  "version": "1.0.0",
+  "description": "Employee Management System(Web Client)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D (web Client)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "client",
+    "html",
+    "css"
+  ],
+  "author": "gnyawali.sanjeev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
