@@ -7,13 +7,23 @@
     <title>Employee Management Web Client</title>
 </head>
 <body>
-    <form>
+    <div>
             <label for="uname"> <b>Username</b> </label> </br>
-            <input type="text" id="username" placeholder="Enter Username" name="username" required>  </br>    
+            <input  id='username' type="text" placeholder="Enter Username" name="username" required>  </br>    
             <label for="password"><b>Password</b> </label> </br>
-            <input type="password" id="password" placeholder="Enter password" name="password" required> </br>
-            <button>Login</button>
-    </form>
-    
+            <input  id='password' type="password" placeholder="Enter password" name="password" required> </br>
+            <button id='login'>Login</button>
+    </div>
+
+    <script>
+    const button = document.getElementById('login');
+    button.addEventListener('click',function(){
+        const username =document.getElementById('username').value;
+        const password=document.getElementById('password').value;
+        console.log('Button Clicked');
+        console.log("username=>"+username+'\n'+"password=>"+password);
+    })
+    </script>
+
 </body>
 </html>
